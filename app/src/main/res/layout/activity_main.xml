@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/bot_top"
+    android:paddingLeft="@dimen/left_right"
+    android:paddingRight="@dimen/left_right"
+    android:paddingTop="@dimen/bot_top"
+    tools:context="com.example.alex.soundbutton.MainActivity"
+    android:background="@drawable/image"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button"
+            android:background="@drawable/isokratis"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_button"
+        >
+
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton1"
+            android:onClick="ga"
+            android:background="@drawable/ga"
+
+            />
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton2"
+            android:background="@drawable/di"
+            android:onClick="di"
+            android:layout_marginLeft="@dimen/gap_button"
+            />
+
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/ke"
+            android:onClick="ke"
+            android:layout_marginLeft="@dimen/gap_button"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_button">
+
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton4"
+            android:background="@drawable/pa"
+            android:onClick="pa"
+            />
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton5"
+            android:background="@drawable/vou"
+            android:onClick="vou"
+            android:layout_marginLeft="@dimen/gap_button"
+
+            />
+
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton6"
+            android:background="@drawable/zwyfesi"
+            android:onClick="zwyf"
+            android:layout_marginLeft="@dimen/gap_button"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_button">
+
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/zw"
+            android:onClick="zw"
+
+            />
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/nh"
+            android:onClick="nh"
+            android:layout_marginLeft="@dimen/gap_button"
+            />
+        <ImageButton
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/gadiesh"
+            android:onClick="gadi"
+            android:layout_marginLeft="@dimen/gap_button"
+            />
+
+    </LinearLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/button"
+       android:layout_marginTop="@dimen/gap_button"
+       >
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/button"
+           android:background="@drawable/scrollbar"
+           />
+
+       <SeekBar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/seekBar"
+           />
+       <TextView
+           android:layout_marginTop="@dimen/volume_from_top"
+           android:layout_marginLeft="@dimen/button"
+           android:layout_width="@dimen/button"
+           android:layout_height="@dimen/volume_height"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:id="@+id/volume"
+           />
+
+   </RelativeLayout>
+
+
+</LinearLayout>

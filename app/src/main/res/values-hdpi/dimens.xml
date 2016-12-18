@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="bot_top">10dp</dimen>
+    <dimen name="left_right">10dp</dimen>
+    <dimen name="button">90dp</dimen>
+    <dimen name="gap_button">14dp</dimen>
+    <dimen name="volume_height">30dp</dimen>
+    <dimen name="volume_from_top">60dp</dimen>
+</resources>

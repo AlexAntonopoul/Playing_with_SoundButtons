@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bot_top">10dp</dimen>
+    <dimen name="left_right">10dp</dimen>
+    <dimen name="button">90dp</dimen>
+    <dimen name="gap_button">4dp</dimen>
+    <dimen name="volume_height">30dp</dimen>
+    <dimen name="volume_from_top">80dp</dimen>
+</resources>
